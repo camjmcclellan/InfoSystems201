@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crisp Coatings</title>
+    <link rel="stylesheet" href="../css/customStyles.css">
+</head>
+<body style="background-color: lightblue;">
+
+    <div class="container">
+        <h1>Crisp Coatings</h1>
+        <ol>
+            <li>
+                <p>Epoxy Flooring Process:</p>
+                <ol>
+                    <li>Fill all cracks</li>
+                    <li>Grind the floor</li>
+                    <li>Spread Epox and add flakey</li>
+                    <li>Scrape and apply the top coat</li>
+                </ol>
+            </li>
+            <li>
+                <p>Before and After:</p>
+                <img src="../assets/img/Before-and-after-.jpeg" alt="Before and After" style="max-width: 300px;">
+            </li>
+            <li>
+                <p>Epoxy Process:</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ushtjjtBhuk" frameborder="0" allowfullscreen></iframe>
+            </li>
+            <li>
+                <p>Employee Interactive Graph:</p>
+                <a href="#Employee Engagment">Go to Employee Engagment</a>
+            </li>
+        </ol>
+    </div>
+
+    <div id="Employee_Engagement">
+        <h2>Employee Engagement</h2>
+    </div>
+    
+    <!-- Your Tableau chart embed code -->
+    <div class='tableauPlaceholder' id='viz1713220264401' style='width: 1000px; height: 800px;'>
+        <noscript>
+            <a href='#'>
+                <img alt='Employee Engagement Dashboard' src='https://public.tableau.com/static/images/Em/EmployeeEngagementKPIs/EmployeeEngagementDashboard/1_rss.png' style='border: none' />
+            </a>
+        </noscript>
+        <object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='EmployeeEngagementKPIs/EmployeeEngagementDashboard' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https://public.tableau.com/static/images/Em/EmployeeEngagementKPIs/EmployeeEngagementDashboard/1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+        </object>
+    </div>
+    
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1713220264401');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        if (divElement.offsetWidth > 800) {
+            vizElement.style.width = '800px';
+            vizElement.style.height = '600px';
+        } else if (divElement.offsetWidth > 500) {
+            vizElement.style.width = '800px';
+            vizElement.style.height = '600px';
+        } else {
+            vizElement.style.width = '100%';
+            vizElement.style.height = '4277px';
+        }
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+    
+
+    <div class="navigation">
+        <a href="../index.html">Back to Resume Page</a>
+    </div>
+
+</body>
+</html>
